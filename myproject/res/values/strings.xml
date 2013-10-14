@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Multiplicación</string>
+    <string name="hello">Hello myproject!</string>
+    <string name="action_settings">Settings</string>
+    <string name="str_cador">Multiplicador</string>
+    <string name="str_cando">Multiplicando</string>
+    <string name="str_Producto">0</string>
+    <string name="str_Button">Calcular</string>
+
+</resources>
