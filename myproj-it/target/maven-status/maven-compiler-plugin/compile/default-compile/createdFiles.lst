@@ -1,0 +1,7 @@
+com\foo\bar\android\test\HelloAndroidActivityTest.class
+com\foo\bar\android\test\R.class
+com\foo\bar\android\test\R$string.class
+com\foo\bar\android\test\R$attr.class
+com\foo\bar\android\test\R$drawable.class
+com\foo\bar\android\test\R$layout.class
+com\foo\bar\android\test\BuildConfig.class
