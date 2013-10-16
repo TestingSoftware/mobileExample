@@ -60,7 +60,7 @@ public class HelloAndroidActivityTest extends ActivityInstrumentationTestCase2<H
 		Button mult = (Button)solo.getView(R.id.button1);
 		solo.clickOnView(mult);					
 					
-		//assertEquals(String.valueOf(resutl), String.valueOf(50));
+		assertEquals(String.valueOf(resutl), String.valueOf(50));
 		
 	}
 	
