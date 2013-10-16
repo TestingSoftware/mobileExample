@@ -45,6 +45,27 @@ public class HelloAndroidActivityTest extends ActivityInstrumentationTestCase2<H
 	
 	}
 	
+	public void testDisplay2(){
+		
+		float firstNumber = 100;
+		float secondNumber = 5;
+		float resutl = firstNumber * secondNumber;
+			
+		EditText Uno = (EditText)solo.getView(R.id.editText1);
+		solo.enterText(Uno, String.valueOf(firstNumber));
+			
+		EditText Dos = (EditText)solo.getView(R.id.editText2);
+		solo.enterText(Dos, String.valueOf(secondNumber));
+			
+		Button mult = (Button)solo.getView(R.id.button1);
+		solo.clickOnView(mult);
+			
+		assertTrue(solo.searchText(String.valueOf(resutl)));
+					
+		assertEquals(String.valueOf(resutl), String.valueOf(7));
+	
+	}
+	
 	protected void tearDown() throws Exception {
 		solo.finishOpenedActivities();
 	}
